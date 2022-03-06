@@ -1,0 +1,88 @@
+.token-detail {
+    padding: 40px 50px;
+    background-color: #192a56;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.token-detail .token-detail-info .token-logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.token-detail .token-detail-info .token-logo {
+    margin-right: 20px;
+}
+
+.token-symbol {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.token-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #7f8fa6
+}
+
+.token-spec {
+    margin-right: 1rem;
+}
+
+.token-supply {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.token-actions {
+
+} 
+
+.action {
+    text-align: center;
+    padding: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.action:hover {
+    transform: scale(1.2);
+}
+
+.action .action-logo {
+    border-radius: 50%;
+    background-color: #34495e;
+}
+
+.action .action-logo img {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.action .action-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.active {
+    transform: scale(1.2);
+}
+
+.action-detail .token-logo img {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+} 
+
+.action-form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.token-action-buttons button {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Merriweather&family=Roboto&family=Sigmar+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --bg: #efefef;
+  --fg: #1e1e1e;
+  --gray: #555;
+  --light-gray: #ccc;
+  --shadow: #e6e6e6;
+  --success: rgb(90, 206, 132);
+  --primary: #FF585D;
+  --secondary: #0072CE;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  color: #efefef!important;
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

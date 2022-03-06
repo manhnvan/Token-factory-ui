@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        ["module-resolver", {
+            "alias": {
+                "@component": "./src/components",
+                "@utils": "./src/utils",
+                "@hooks": "./src/hooks",
+                "@constants": "./src/constants",
+                "@page": "./src/pages",
+                "@config": "./src/config.js",
+                "@assets": "./src/assets"
+            }
+        }]
+    ]
+}
